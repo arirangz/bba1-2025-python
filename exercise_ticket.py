@@ -8,3 +8,4 @@ else:
     price = 5
 
 print(f"Your ticket price is ${price}")
+
