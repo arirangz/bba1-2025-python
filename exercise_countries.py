@@ -6,8 +6,8 @@ countries = [
     {"name": "France", "population": 68_000_000},
 ]
 biggest_country = countries[0]
-for country in countries:
-    print(f"Name: {country["name"]} - Population: {country["population"]:,}")
+for index, country in enumerate(countries) :
+    print(f"Index: {index}   - Name: {country["name"]} - Population: {country["population"]:,}")
     # Add a if to compare country with biggest_country
     # if true we store the country in biggest_country
     if country["population"] > biggest_country["population"]:
